@@ -1,0 +1,136 @@
+html {
+    background-color: black;
+    color: white;
+  }
+
+html, body {
+  margin: 0;
+  padding: 0; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+.text-header{
+      margin-top: 0;
+}
+
+.back{
+  text-align: left; 
+}
+
+.header{
+  font-size: 25px ;
+  width: 100%;
+  height: 600px;
+  background: black;
+  text-align: center; 
+  padding: 20px 25px; 
+  margin-top: 0;
+}
+
+.button-n{
+  text-decoration: none;
+  font-size: 18px;
+  padding: 18px 23px;
+  border-radius: 100px;
+  background: gray; 
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color:rgb(77, 77, 77);
+  border: none;
+  box-shadow: 0 6px rgb(106, 106, 106);  
+}
+
+.button-n:hover {background-color:gray ;}
+.button-n:active {
+  background-color: gray;
+  box-shadow: 0 3px lightgray;
+  transform: translateY(4px);
+}
+
+.button-b{
+  text-decoration: none;
+  font-size: 17px;
+  padding: 15px 16px;
+  border-radius: 100px;
+  background: gray; 
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color:rgb(77, 77, 77);
+  border: none;
+  box-shadow: 0 6px rgb(106, 106, 106);  
+}
+
+.button-b:hover {background-color:gray ;}
+.button-b:active {
+  background-color: gray;
+  box-shadow: 0 3px lightgray;
+  transform: translateY(4px);
+}
+
+.all{
+  display: flex;
+}
+
+.sidebar{
+  text-align: center;
+  width: 20%;
+  min-height: calc(100vh - 80px);
+  background: rgba(56, 56, 56, 0.151);
+  font-size: 20px;
+  line-height: 30px; 
+}
+.button-s{
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px 16px;
+  border-radius: 100px;
+  background: gray; 
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color:rgb(77, 77, 77);
+  border: none;
+  box-shadow: 0 6px rgb(106, 106, 106);  
+}
+
+.button-s:hover {background-color:gray ;}
+.button-s:active {
+  background-color: gray;
+  box-shadow: 0 3px lightgray;
+  transform: translateY(4px);
+}
+
+
+
+.content{
+  width: 80%;
+  min-height: calc(100vh - 80px);
+  background: black;
+  margin: 0;
+  padding: 0;
+  line-height: 30px; 
+  font-size: 19px;
+  padding: 20px 25px;
+}
+
+
+.footer{
+  width: 100%;
+  height: 60px; 
+  background: rgba(119, 118, 118, 0.151);
+}
+.text-footer{
+  margin: 0;
+  padding: 20px 25px
+}
